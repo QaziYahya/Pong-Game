@@ -250,7 +250,7 @@ class mainClass {
   // Used to check if someone won or not
   checkWin() {
     // If computer or player 2 wins
-    if (this.score1 >= 10) {
+    if (this.score1 >= 50) {
       // Clear the interval
       clearInterval(this.timeInterval);
       // Change the page state to the winning state
@@ -267,7 +267,7 @@ class mainClass {
       }
 
       // If computer or player 2 wins
-    } else if (this.score2 >= 10) {
+    } else if (this.score2 >= 50) {
       // Clear the interval
       clearInterval(this.timeInterval);
       // Change the page state to the winning state
